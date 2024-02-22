@@ -19,16 +19,16 @@ const ContactUI = ({ open, success, errMsg, handleClose, classes, handleContactF
       style={{ backgroundColor: theme.secondary }}
     >
       <div className='contacts--container'>
-        <h1 style={{ color: theme.primary }}>Contacts</h1>
+        <h1 style={{ color: theme.primary }}>Contato</h1>
         <div className='contacts-body'>
           <div className='contacts-form'>
             <form ref={form} onSubmit={handleContactForm}>
               <div className='input-container'>
-                <label htmlFor='Name' className={classes.label}>
-                  Name
+                <label htmlFor='Nome' className={classes.label}>
+                  Nome
                 </label>
                 <input
-                  placeholder='John Doe'
+                  placeholder='Seu nome'
                   value={name}
                   onChange={(e) => setName(e.target.value)}
                   type='text'
@@ -44,7 +44,7 @@ const ContactUI = ({ open, success, errMsg, handleClose, classes, handleContactF
                   Email
                 </label>
                 <input
-                  placeholder='John@doe.com'
+                  placeholder='exemplo@gmail.com'
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   type='email'
@@ -54,13 +54,13 @@ const ContactUI = ({ open, success, errMsg, handleClose, classes, handleContactF
               </div>
               <div className='input-container'>
                 <label
-                  htmlFor='Message'
+                  htmlFor='Mensagem'
                   className={classes.label}
                 >
-                  Message
+                  Mensagem
                 </label>
                 <textarea
-                  placeholder='Type your message....'
+                  placeholder='Escreva alguma mensagem...'
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
                   type='text'
@@ -74,7 +74,7 @@ const ContactUI = ({ open, success, errMsg, handleClose, classes, handleContactF
                   type='submit'
                   className={classes.submitBtn}
                 >
-                  <p>{!success ? 'Send' : 'Sent'}</p>
+                  <p>{!success ? 'Enviar' : 'Enviado'}</p>
                   <div className='submit-icon'>
                     <AiOutlineSend
                       className='send-icon'

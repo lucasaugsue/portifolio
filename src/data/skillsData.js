@@ -1,23 +1,19 @@
 export const skillsData = [
     'HTML',
-    'Figma',
-    'Javascript',
     'CSS',
+    'Javascript',
+    'Python',
     'React',
-    'Docker',
+    // 'Docker',
     'Next JS',
-    'Node JS',
-    'Bootstrap',
-    'Go',
+    // 'Node JS',
     'Typescript',
-    'Figma',
-    'Ubuntu',
+    'Git',
+    // 'Figma',
     'MongoDB',
-    'Tailwind',
     'MySQL',
     'PostgreSQL',
     'MaterialUI',
-    'Firebase'
 ]
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.
@@ -61,7 +57,6 @@ export const skillsData = [
     C
     C++
     C#
-    Python
     Java
     Julia
     Matlab

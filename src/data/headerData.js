@@ -1,9 +1,9 @@
 
 export const headerData = {
-    name: 'ABU SAID',
-    title: "Hello! I am",
-    desciption: "Hello! I am ABU SAID, a professional and passionate programmer in my daily life. A quick learner with a self-learning attitude. I love to learn and explore new technologies and am Passionate about Problem Solving. ",
-    image: 'https://i.ibb.co/ZmdNH6x/abu-said.jpg',
-    imagebw: 'https://i.ibb.co/Cw2Xp90/abu-said-bw.jpg',
-    resumePdf: 'https://docs.google.com/document/d/1MkkoRX98FS47CaEyeodyPzi4OkW8SH7Gv55f4MQkHV8/edit?usp=sharing'
+    name: 'Lucas Augsuê',
+    title: "Salve, salve eu sou",
+    desciption: "Salve! Eu sou Lucas Augsuê, Meu foco é desenvolver aplicações web e móveis utilizando JavaScript, React.js, React Native, Node.js e Next.js. Tenho experiência em trabalhar com startups, como a 4pix.io, onde contribuí remotamente com inovações tecnológicas e introduzi boas práticas de código e DevOps, e a Fridom, onde atuei como desenvolvedor fullstack em diversos projetos, atendendo às demandas dos clientes com eficiência e qualidade. ",
+    image: 'https://i.ibb.co/31008VR/img-profissional.png',
+    imagebw: 'https://i.ibb.co/31008VR/img-profissional.png',
+    resumePdf: 'https://drive.google.com/file/d/1z8cw2ZUpgm784RM7fNGBqPPFegrJP0Pi/view?usp=drive_link'
 }

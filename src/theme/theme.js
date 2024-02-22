@@ -4,7 +4,7 @@ import { contactsImage } from './images'
 export const theLightTheme = {
     type: 'light',
     primary: '#1D9BF0',
-    quaternary: '#EFF3F4',
+    quaternary: '#C1E9F3',
     quaternaryLight: '#F7F9F9',
     secondary: '#ffffff',
     tertiary: '#0f1419',

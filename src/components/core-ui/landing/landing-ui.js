@@ -116,7 +116,7 @@ function LandingUI({ theme, drawerOpen, classes }) {
                                     rel='noreferrer'
                                 >
                                     <button className={classes.resumeBtn}>
-                                        Download CV
+                                        Baixar CV
                                     </button>
                                 </a>
                             )}
@@ -127,7 +127,7 @@ function LandingUI({ theme, drawerOpen, classes }) {
                                 duration={2000}
                             >
                                 <button className={classes.contactBtn}>
-                                    Contact
+                                    Contato
                                 </button>
                             </NavLink>
                         </div>

@@ -115,7 +115,7 @@ const Contacts = () => {
       if (isEmail(email)) {
         emailjs.sendForm(process.env.REACT_APP_YOUR_SERVICE_ID, process.env.REACT_APP_YOUR_TEMPLATE_ID, form.current, process.env.REACT_APP_YOUR_PUBLIC_KEY)
           .then((result) => {
-            console.log('success');
+            console.log('Sucesso');
             setSuccess(true);
             setErrMsg('');
             setName('');
@@ -126,11 +126,11 @@ const Contacts = () => {
             console.log(error.text);
           });
       } else {
-        setErrMsg('Invalid email');
+        setErrMsg('Email inválido');
         setOpen(true);
       }
     } else {
-      setErrMsg('Enter all the fields');
+      setErrMsg('Escreva em todos os campos');
       setOpen(true);
     }
   };
